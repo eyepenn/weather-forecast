@@ -1,0 +1,85 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color: #515151;
+	padding: 20px;
+	margin: 0px;
+}
+
+#location {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#zip_code, button {
+	margin-bottom: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 2px;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 1px 6px;
+	cursor: pointer;
+}
+
+table {
+	-webkit-box-shadow: 3px 3px 5px -3px rgba(135,135,135,0.4);
+	-moz-box-shadow: 3px 3px 5px -3px rgba(135,135,135,0.4);
+	box-shadow: 3px 3px 5px -3px rgba(135,135,135,0.4);
+	border: 1px solid #DDD;
+}
+
+table th {
+	background-color: aliceblue;
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: left;
+	font-weight: normal;
+	border-bottom: 1px solid #a5a5a5;
+}
+
+table th:first-child {
+	width: 130px;
+	padding-left: 18px;
+}
+
+table th.description {
+	width:140px;
+}
+
+table tr td {
+	padding: 10px;
+	cursor: pointer;
+}
+
+table tr td span {
+	color: #a5a5a5;
+}
+
+table tr td:first-child {
+	padding-left: 18px;
+	text-transform: uppercase;
+}
+
+table tr td {
+	border-bottom: 1px solid #a5a5a5;
+}
+
+table tr:last-child td {
+	border-bottom: none;
+}
+
+table tr td .icon {
+	float: right;
+	width: 30px;
+	margin: 4px 8px 0  20px;
+}
+
+table tr td .pop {
+	float:left;
+	height:15px;
+	margin: 0px 3px 0 0;
+}
